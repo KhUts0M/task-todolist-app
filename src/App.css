@@ -36,3 +36,116 @@
     transform: rotate(360deg);
   }
 }
+.TodoWrapper {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px;
+  background-color: burlywood;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo button {
+  margin-left: 10px;
+  background-color: white;
+}
+
+.todo button:hover {
+  background-color: white;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: white;
+}
+
+.Todo p {
+  margin: 0;
+  flex: 1;
+}
+
+.Todo div {
+  display: flex;
+  align-items: center;
+}
+
+.Todo div > * {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+svg {
+  font-size: 20px;
+  color: burlywood;
+}
+svg:hover {
+  color: black;
+}
+
+.TodoWrapperContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: burlywood;
+}
+
+.TodoWrapper {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: chocolate;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
